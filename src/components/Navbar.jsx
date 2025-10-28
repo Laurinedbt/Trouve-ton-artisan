@@ -18,7 +18,7 @@ function NavBar () {
                   <NavLink to="/batiment" className="nav-link" aria-current="page">Bâtiment</NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink to="/services" className="nav-link active">Services</NavLink>
+                  <NavLink to="/services" className="nav-link">Services</NavLink>
                 </li>
                 <li className="nav-item">
                   <NavLink to="fabrication" className="nav-link">Fabrication</NavLink>

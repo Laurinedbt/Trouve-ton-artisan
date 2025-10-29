@@ -9,7 +9,7 @@ const BreadcrumbNav = () => {
   if (pathnames.length === 0) return null;
 
   return (
-    <Breadcrumb style={{ "--bs-breadcrumb-divider": "'>'" }}>
+    <Breadcrumb className='p-4' style={{ "--bs-breadcrumb-divider": "'>'" }}>
       <Breadcrumb.Item linkAs={NavLink} linkProps={{ to: '/' }}>
         Accueil
       </Breadcrumb.Item>

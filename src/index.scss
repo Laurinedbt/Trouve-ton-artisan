@@ -37,6 +37,12 @@ body {
     color: $dark-color;
 }
 
+footer {
+  height: 525px;
+  background-color: #0074c7;
+  color: #f1f8fc;
+}
+
 .navbar {
     box-shadow: 0px 12px 24px 0px transparentize($dark-color, 0.9);
 }
@@ -70,5 +76,14 @@ li {
 
 .bi-search {
     color: $darkblue;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+hr {
+  color: $light-color;
+  opacity: 100%;
 }
 

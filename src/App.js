@@ -7,12 +7,13 @@ import Batiment from './pages/Batiment';
 import Services from './pages/Services';
 import Fabrication from './pages/Fabrication';
 import Alimentation from './pages/Alimentation';
+import Footer from './components/Footer.jsx';
 
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      <NavBar /> 
         <BreadcrumbNav />
 
       <Routes>
@@ -22,6 +23,8 @@ function App() {
         <Route path='/fabrication' element={<Fabrication />}></Route>
         <Route path='/alimentation' element={<Alimentation />}></Route>
       </Routes>
+
+      <Footer />
 
     </div>
   );

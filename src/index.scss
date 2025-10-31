@@ -43,7 +43,7 @@ body {
     box-shadow: 0px 12px 24px 0px transparentize($dark-color, 0.9);
 }
 
-li {
+li.nav-item {
     font-size: 20px;
 }
 
@@ -81,6 +81,8 @@ li {
   display: flex;
   align-items: center;
   margin-left: 70px;
+  margin-top: 30px;
+  margin-bottom: 92px;
 
     h1 {
       font-size: 32px;
@@ -98,14 +100,29 @@ li {
   }
 
   .list-section {
-    li {
+  width: 1084px;
+  display: flex;
+  justify-self: center;
+
+    .text-section {
       color: $darkblue;
       font-weight: 700;
+      font-size: 32px;
+      width: 442px;
+      padding-bottom: 25px;
+    }
+
+    .last-text{
+      color: $darkblue;
+      font-weight: 700;
+      font-size: 32px;
+      padding-bottom: 25px;
     }
   }
 
   .info-section {
     height: 450;
+    margin-bottom: 70px;
   }
 
   .line {
@@ -125,4 +142,15 @@ li {
 
   .blueline {
     background-color: $darkblue;
+  }
+
+  .text{
+    width: 428px;
+  }
+
+  .img-placeholder{
+    img{
+      height: 450px;
+      width: 450px;
+    }
   }

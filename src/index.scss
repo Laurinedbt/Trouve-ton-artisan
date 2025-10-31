@@ -2,6 +2,8 @@ $dark-color : #384050;
 $light-color : #f1f8fc;
 $lightblue : #0074c7;
 $darkblue : #00497c;
+$red : #cd2c2e;
+$green : #82b864;
 
 // Polices
 @font-face {
@@ -72,3 +74,55 @@ li {
     color: $darkblue;
 }
 
+.home-header {
+  background-color: $red;
+  width: 484px;
+  height: 269px;
+  display: flex;
+  align-items: center;
+  margin-left: 70px;
+
+    h1 {
+      font-size: 32px;
+      color: $light-color;
+      margin-top: 28px;  
+    }
+}
+
+  .header-line {
+    border: none;
+    height: 14px;               
+    width: 52px;               
+    background-color: $light-color;  
+    opacity: 1;
+  }
+
+  .list-section {
+    li {
+      color: $darkblue;
+      font-weight: 700;
+    }
+  }
+
+  .info-section {
+    height: 450;
+  }
+
+  .line {
+    border: none;
+    height: 13px;               
+    width: 43px;  
+    opacity: 1;
+  }
+
+  .greenline {
+    background-color: $green;
+  }
+
+  .redline {
+    background-color: $red;
+  }
+
+  .blueline {
+    background-color: $darkblue;
+  }

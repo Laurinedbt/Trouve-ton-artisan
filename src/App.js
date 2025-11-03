@@ -6,7 +6,7 @@ import Accueil from './pages/Accueil';
 import Batiment from './pages/Batiment';
 import Services from './pages/Services';
 import Fabrication from './pages/Fabrication';
-import Alimentation from './pages/Alimentation';
+import FicheArtisan from './pages/FicheArtisan.jsx';
 
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
         <Route path='/batiment' element={<Batiment />}></Route>
         <Route path='/services' element={<Services />}></Route>
         <Route path='/fabrication' element={<Fabrication />}></Route>
-        <Route path='/alimentation' element={<Alimentation />}></Route>
+        <Route path='/FicheArtisan' element={<FicheArtisan />}></Route>
       </Routes>
 
     </div>

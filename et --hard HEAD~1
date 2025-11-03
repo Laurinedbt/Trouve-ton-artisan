@@ -1,0 +1,108 @@
+[33mcommit ee89d3541f7677c5f82302cde73dd7ee90bede7f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32maccueil[m[33m)[m
+Author: Laurine <deberdt.laurine@gmail.com>
+Date:   Mon Nov 3 15:05:46 2025 +0100
+
+    Finalisation accueil
+
+[33mcommit 8a9044cfa79415cbc23dcc2287d511966dc14ada[m
+Author: Laurine <deberdt.laurine@gmail.com>
+Date:   Mon Nov 3 13:28:04 2025 +0100
+
+    Avancement accueil
+
+[33mcommit cae068dc49ff677e76b5eef5150b2bb8e60f998a[m
+Author: Laurine <deberdt.laurine@gmail.com>
+Date:   Fri Oct 31 15:01:59 2025 +0100
+
+    Finalisation list section
+
+[33mcommit f3419c05ceac6b7150001f08f0317c88c02705b8[m
+Author: Laurine <deberdt.laurine@gmail.com>
+Date:   Fri Oct 31 12:45:10 2025 +0100
+
+    Avancement mise en forme  page d'accueil
+
+[33mcommit 886d33c9fd87ae0f14458634db7fcb87b3d5a77c[m
+Author: Laurine <deberdt.laurine@gmail.com>
+Date:   Wed Oct 29 11:56:39 2025 +0100
+
+    Début structure page accueil
+
+[33mcommit 14b27a6b62aecc7baf87f21af1a3307c4dc6bcb2[m[33m ([m[1;32mmain[m[33m)[m
+Merge: 6a4e711 24463ed
+Author: Laurine <deberdt.laurine@gmail.com>
+Date:   Mon Nov 3 15:14:19 2025 +0100
+
+    Merge footer + navbar
+
+[33mcommit 24463ed41c5f02723d3edc3bce4b9742b5b8ce52[m[33m ([m[1;31morigin/footer[m[33m, [m[1;32mfooter[m[33m)[m
+Author: Laurine <deberdt.laurine@gmail.com>
+Date:   Wed Oct 29 15:42:06 2025 +0100
+
+    Finalisation footer
+
+[33mcommit 6a4e711073fc45f0b18cd2a233d4b7976dcc330a[m[33m ([m[1;31morigin/navbar[m[33m, [m[1;32mnavbar[m[33m)[m
+Author: Laurine <deberdt.laurine@gmail.com>
+Date:   Wed Oct 29 15:23:49 2025 +0100
+
+    correction css nav
+
+[33mcommit 6aa51db6263cd9eda9860aa35029f6aa839ed6e0[m
+Author: Laurine <deberdt.laurine@gmail.com>
+Date:   Wed Oct 29 15:23:01 2025 +0100
+
+    Avancement footer
+
+[33mcommit 2d956c8b1089f149dabcbfeb4ed33b5028a589c2[m
+Author: Laurine <deberdt.laurine@gmail.com>
+Date:   Wed Oct 29 11:47:23 2025 +0100
+
+    Ajout polices
+
+[33mcommit a24baea77bdf100a6783e8e0ae9ab2c360b09481[m
+Author: Laurine <deberdt.laurine@gmail.com>
+Date:   Wed Oct 29 11:02:14 2025 +0100
+
+    Finalisation navbar
+
+[33mcommit f7767293fde652cfb116ddba24fd354b038cbca9[m
+Author: Laurine <deberdt.laurine@gmail.com>
+Date:   Tue Oct 28 13:11:11 2025 +0100
+
+    Correction installation Sass
+
+[33mcommit 39e3696bb19652ea9634540e467dca0adf35a4ea[m
+Author: Laurine <deberdt.laurine@gmail.com>
+Date:   Tue Oct 28 13:08:57 2025 +0100
+
+    Installation Sass
+
+[33mcommit 6f5890c5e4646cdcdbc1734d4a9bd8678889b4d3[m
+Author: Laurine <deberdt.laurine@gmail.com>
+Date:   Tue Oct 28 12:44:17 2025 +0100
+
+    Ajout BreadcrumbNav et pages
+
+[33mcommit 7119e1ffffd2b766547881abdf38f20110d3d2af[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Laurine <deberdt.laurine@gmail.com>
+Date:   Tue Oct 28 11:05:37 2025 +0100
+
+    Ajout liens bootstrap
+
+[33mcommit 977a073abe25514234696d4be92e4348f75bb082[m
+Author: Laurine <deberdt.laurine@gmail.com>
+Date:   Thu Oct 23 17:08:15 2025 +0200
+
+    Configuration index.html, app.js et index.js et création composants nav et footer
+
+[33mcommit d3ee25d83451b8c7d0a5495f06ea5c58f0cf31ec[m
+Author: Laurine <deberdt.laurine@gmail.com>
+Date:   Thu Oct 23 14:53:27 2025 +0200
+
+    Initial commit
+
+[33mcommit fc11fba3cba54aa347f556fc53959ee306c7cae6[m
+Author: Laurine <deberdt.laurine@gmail.com>
+Date:   Thu Oct 23 14:45:41 2025 +0200
+
+    Initialize project using Create React App

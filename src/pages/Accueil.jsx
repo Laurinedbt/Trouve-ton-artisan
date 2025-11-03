@@ -60,39 +60,42 @@ const Accueil = () => {
                 </section>
 
                 <section>
-                    <div>
-                        <h2>Les artisans du mois</h2>
+                    <div className="artisan-section px-4">
+                        <div className="title">
+                            <hr/>
+                            <h2>Les artisans du mois</h2>
+                        </div>
                     </div>
 
-                    <div className="artisans-section">
-                        <article className="artisan-card">
+                    <div className="artisans-du-mois">
+                        <article className="artisan-card col-md-4">
                             <div>
-                                <img src="" alt="" />
+                                <img src="/img/img-placeholder.svg" alt="Placeholder img" />
                             </div>
-                            <h3>Nom artisan/entreprise</h3>
-                            <div></div>
+                            <h3>Nom artisan/ entreprise</h3>
+                            <p><i></i></p>
                             <p><i></i>Spécialité</p>
                             <p><i></i>Localisation</p>
                             <a href="/" className="">Découvrir <i></i></a>
                         </article>
 
-                        <article className="artisan-card">
+                        <article className="artisan-card col-md-4">
                             <div>
-                                <img src="" alt="" />
+                                <img src="/img/img-placeholder.svg" alt="Placeholder img" />
                             </div>
-                            <h3>Nom artisan/entreprise</h3>
-                            <div></div>
+                            <h3>Nom artisan/ entreprise</h3>
+                            <p><i></i></p>
                             <p><i></i>Spécialité</p>
                             <p><i></i>Localisation</p>
                             <a href="/" className="">Découvrir <i></i></a>
                         </article>
 
-                        <article className="artisan-card">
+                        <article className="artisan-card col-md-4">
                             <div>
-                                <img src="" alt="" />
+                                <img src="/img/img-placeholder.svg" alt="Placeholder img" />
                             </div>
-                            <h3>Nom artisan/entreprise</h3>
-                            <div></div>
+                            <h3>Nom artisan/ entreprise</h3>
+                            <p><i> </i></p>
                             <p><i></i>Spécialité</p>
                             <p><i></i>Localisation</p>
                             <a href="/" className="">Découvrir <i></i></a>

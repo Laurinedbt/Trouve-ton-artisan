@@ -74,13 +74,15 @@ li.nav-item {
     color: $darkblue;
 }
 
+// PAGE ACCUEIL
+
 .home-header {
   background-color: $red;
   width: 484px;
   height: 269px;
   display: flex;
   align-items: center;
-  margin-left: 70px;
+  margin-left: 85px;
   margin-top: 30px;
   margin-bottom: 92px;
 
@@ -89,6 +91,31 @@ li.nav-item {
       color: $light-color;
       margin-top: 28px;  
     }
+}
+
+.artisan-section{
+  background-color: $lightblue;
+  width: 484px;
+  height: 269px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 85px;
+
+    hr{
+       border: none;
+      height: 14px;               
+      width: 52px;               
+      background-color: $light-color;  
+      opacity: 1;
+    }
+
+    h2{
+      font-size: 32px;
+      color: $light-color;
+      margin-top: 28px;
+    }
+
 }
 
   .header-line {
@@ -125,6 +152,29 @@ li.nav-item {
     margin-bottom: 70px;
   }
 
+  .artisans-du-mois{
+    background-color: transparentize($lightblue, 0.9);
+    margin-top: 25px;
+    width: 1390px;
+    height: 745px;
+    display: flex;
+    justify-self: center;
+
+    h3{
+      width: 279px;
+    }
+    
+  }
+
+  .artisan-card{
+    color: $darkblue;
+
+    img{
+      width: 250px;
+      height: 250px;
+    }
+  }
+
   .line {
     border: none;
     height: 13px;               
@@ -154,3 +204,4 @@ li.nav-item {
       width: 450px;
     }
   }
+

@@ -68,37 +68,39 @@ const Accueil = () => {
                     </div>
 
                     <div className="artisans-du-mois">
-                        <article className="artisan-card col-md-4">
-                            <div>
+                        <article className="artisan-card">
+                            <div className="img-container">
                                 <img src="/img/img-placeholder.svg" alt="Placeholder img" />
                             </div>
                             <h3>Nom artisan/ entreprise</h3>
-                            <p><i></i></p>
-                            <p><i></i>Spécialité</p>
-                            <p><i></i>Localisation</p>
-                            <a href="/" className="">Découvrir <i></i></a>
+                            <p><i class="bi bi-star-fill px-1"></i><i class="bi bi-star-fill px-1"></i><i class="bi bi-star-fill px-1"></i><i class="bi bi-star-fill px-1"></i><i class="bi bi-star-half px-1"></i></p>
+                            <p className="text-size"><i class="bi bi-check-circle-fill"></i>Spécialité</p>
+                            <p className="text-size"><i class="bi bi-pin-map-fill"></i>Localisation</p>
+                            <a href="/" className="text-size button">Découvrir <i class="bi bi-arrow-right px-3"></i></a>
+                            
                         </article>
 
-                        <article className="artisan-card col-md-4">
-                            <div>
+                        <article className="artisan-card">
+                            <div className="img-container">
                                 <img src="/img/img-placeholder.svg" alt="Placeholder img" />
                             </div>
                             <h3>Nom artisan/ entreprise</h3>
-                            <p><i></i></p>
-                            <p><i></i>Spécialité</p>
-                            <p><i></i>Localisation</p>
-                            <a href="/" className="">Découvrir <i></i></a>
+                            <p><i class="bi bi-star-fill px-1"></i><i class="bi bi-star-fill px-1"></i><i class="bi bi-star-fill px-1"></i><i class="bi bi-star-fill px-1"></i><i class="bi bi-star-half px-1"></i></p>
+                            <p className="text-size"><i class="bi bi-check-circle-fill"></i>Spécialité</p>
+                            <p className="text-size"><i class="bi bi-pin-map-fill"></i>Localisation</p>
+                            <a href="/" className="text-size button">Découvrir <i class="bi bi-arrow-right px-3"></i></a>
+                           
                         </article>
 
-                        <article className="artisan-card col-md-4">
-                            <div>
-                                <img src="/img/img-placeholder.svg" alt="Placeholder img" />
+                        <article className="artisan-card">
+                            <div className="img-container">
+                                <img src="/img/img-placeholder.svg" alt="Placeholder img"/>
                             </div>
                             <h3>Nom artisan/ entreprise</h3>
-                            <p><i> </i></p>
-                            <p><i></i>Spécialité</p>
-                            <p><i></i>Localisation</p>
-                            <a href="/" className="">Découvrir <i></i></a>
+                            <p><i class="bi bi-star-fill px-1"></i><i class="bi bi-star-fill px-1"></i><i class="bi bi-star-fill px-1"></i><i class="bi bi-star-fill px-1"></i><i class="bi bi-star-half px-1"></i></p>
+                            <p className="text-size"><i class="bi bi-check-circle-fill"></i>Spécialité</p>
+                            <p className="text-size"><i class="bi bi-pin-map-fill"></i>Localisation</p>
+                            <a href="/" className="text-size button">Découvrir <i class="bi bi-arrow-right px-3"></i></a> 
                         </article>
                     </div>
                 </section>

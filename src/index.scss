@@ -154,24 +154,65 @@ li.nav-item {
 
   .artisans-du-mois{
     background-color: transparentize($lightblue, 0.9);
-    margin-top: 25px;
-    width: 1390px;
-    height: 745px;
+    margin: 25px auto;
+    max-width: 1390px;
+    min-height: 745px;
     display: flex;
-    justify-self: center;
+    justify-content: center;
+    gap: 150px;
+    
 
     h3{
       width: 279px;
+      font-weight: 700;
     }
     
   }
 
   .artisan-card{
     color: $darkblue;
+    width: 279px;
+    display: flex;
+    flex-direction: column;
+
+    .img-container{
+      padding-top: 60px;
+      padding-bottom: 20px;
+    }
 
     img{
       width: 250px;
       height: 250px;
+      border : 1px solid transparentize($darkblue, 0.12);
+    }
+
+
+    .bi-star-fill, .bi-star-half{
+      color: $lightblue;
+      font-size: 25px;
+    }
+
+    .text-size{
+      font-size: 22px;
+    }
+
+    a{
+      text-decoration: none;
+    }
+
+    .button{
+      color: $darkblue;
+      font-weight: 700;
+      display: inline-flex;
+      align-items: center; 
+    }
+
+    .bi-pin-map-fill, .bi-check-circle-fill{
+      padding-right: 10px;
+    }
+
+    .bi-arrow-right{
+      font-size: 35px;
     }
   }
 

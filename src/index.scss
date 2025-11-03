@@ -39,6 +39,10 @@ body {
     color: $dark-color;
 }
 
+
+
+// MENU NAVIGATION
+
 .navbar {
     box-shadow: 0px 12px 24px 0px transparentize($dark-color, 0.9);
 }
@@ -73,6 +77,11 @@ li.nav-item {
 .bi-search {
     color: $darkblue;
 }
+
+
+
+
+
 
 // PAGE ACCUEIL
 
@@ -246,7 +255,101 @@ li.nav-item {
     }
   }
 
-  // PAGE LISTE DES ARTISANS
 
+
+
+  // PAGE LISTE DES ARTISANS / BATIMENT
+
+.batiment-card{
+  color: $darkblue;
+  margin: auto;
+  max-width: 436px;
+  min-height: 703px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
   
+  background-color: transparentize($color: $lightblue, $amount: 0.88 );
+
+  margin-bottom: 100px;
+  border-radius: 50px;
+
+  h3{
+    font-weight: 700;
+    width: 279px;
+  }
+  
+  img{
+      width: 250px;
+      height: 250px;
+      border : 1px solid transparentize($darkblue, 0.12);
+    }
+
+
+    .bi-star-fill, .bi-star-half{
+      color: $lightblue;
+      font-size: 25px;
+    }
+
+    .text-size{
+      font-size: 22px;
+    }
+
+    a{
+      text-decoration: none;
+    }
+
+    .btn{
+      width: 243px;
+      height: 54px;
+      color: $light-color;
+      background-color: $lightblue;
+      font-weight: 500;
+      border-radius: 20px;
+      display: inline-flex;
+      align-items: center; 
+      justify-content: center;
+      margin-top: 49px;
+    }
+
+    .bi-pin-map-fill, .bi-check-circle-fill{
+      padding-right: 10px;
+    }
+
+    .bi-arrow-right{
+      font-size: 35px;
+    }
+
+}
+
+.page-title{
+  padding-left: 120px;
+  color: $darkblue;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.second-title{
+  padding-left: 200px;
+  padding-top: 95px;
+  padding-bottom: 100px;
+  color: $darkblue;
+  
+  h2{
+    font-weight: 700;
+    font-size: 40px;
+  }
+}
+
+.card-title{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.rating{
+  padding-bottom: 10px;
+}
+
+
 

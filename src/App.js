@@ -4,8 +4,7 @@ import NavBar from "./components/NavBar";
 import BreadcrumbNav from './components/BreadcrumbNav.jsx';
 import Accueil from './pages/Accueil';
 import Batiment from './pages/Batiment';
-import Services from './pages/Services';
-import Fabrication from './pages/Fabrication';
+import Erreur from './pages/Erreur.jsx';
 import FicheArtisan from './pages/FicheArtisan.jsx';
 
 
@@ -18,8 +17,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Accueil />}></Route>
         <Route path='/batiment' element={<Batiment />}></Route>
-        <Route path='/services' element={<Services />}></Route>
-        <Route path='/fabrication' element={<Fabrication />}></Route>
+        <Route path='/erreur' element={<Erreur />}></Route>
         <Route path='/ficheartisan' element={<FicheArtisan />}></Route>
       </Routes>
 

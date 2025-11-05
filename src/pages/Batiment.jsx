@@ -30,7 +30,7 @@ const Batiment = () => {
                                         </div>
                                         <p className="card-info text-size"><i class="bi bi-check-circle-fill"></i>Spécialité</p>
                                         <p className="card-info text-size"><i class="bi bi-pin-map-fill"></i>Localisation</p>
-                                        <a href="/" className="btn text-size">Découvrir <i class="bi bi-arrow-right px-3"></i></a>
+                                        <a href="/ficheartisan" className="btn text-size">Découvrir <i class="bi bi-arrow-right px-3"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -51,7 +51,7 @@ const Batiment = () => {
                                         </div>
                                         <p className="card-info text-size"><i class="bi bi-check-circle-fill"></i>Spécialité</p>
                                         <p className="card-info text-size"><i class="bi bi-pin-map-fill"></i>Localisation</p>
-                                        <a href="/" className="btn text-size">Découvrir <i class="bi bi-arrow-right px-3"></i></a>
+                                        <a href="/ficheartisan" className="btn text-size">Découvrir <i class="bi bi-arrow-right px-3"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -76,9 +76,7 @@ const Batiment = () => {
                                         <p className="card-info text-size">
                                             <i class="bi bi-pin-map-fill"></i>Localisation
                                         </p>
-                                        <a href="/" className="btn text-size">
-                                            Découvrir <i class="bi bi-arrow-right px-3"></i>
-                                        </a>
+                                        <a href="/ficheartisan" className="btn text-size">Découvrir <i class="bi bi-arrow-right px-3"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -99,7 +97,7 @@ const Batiment = () => {
                                         </div>
                                         <p className="card-info text-size"><i class="bi bi-check-circle-fill"></i>Spécialité</p>
                                         <p className="card-info text-size"><i class="bi bi-pin-map-fill"></i>Localisation</p>
-                                        <a href="/" className="btn text-size">Découvrir <i class="bi bi-arrow-right px-3"></i></a>
+                                        <a href="/ficheartisan" className="btn text-size">Découvrir <i class="bi bi-arrow-right px-3"></i></a>
                                     </div>
                                 </div>
                             </div>

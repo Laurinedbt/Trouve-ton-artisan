@@ -286,12 +286,6 @@ li.nav-item {
       border : 1px solid transparentize($darkblue, 0.12);
     }
 
-
-    .bi-star-fill, .bi-star-half{
-      color: $lightblue;
-      font-size: 25px;
-    }
-
     .text-size{
       font-size: 22px;
     }
@@ -323,6 +317,11 @@ li.nav-item {
 
 }
 
+.bi-star-fill, .bi-star-half{
+      color: $lightblue;
+      font-size: 25px;
+    }
+
 .page-title{
   padding-left: 120px;
   color: $darkblue;
@@ -350,6 +349,173 @@ li.nav-item {
 .rating{
   padding-bottom: 10px;
 }
+
+
+
+
+// PAGE FICHE ARTISAN
+
+.fiche-header{
+  hr{
+    margin-left: 120px;
+    margin-top: 60px;
+    margin-bottom: 75px;
+  }
+  }
+
+  .apropos{
+    width: 608px;
+    height: 388px;
+
+    h2{
+      color: $darkblue;
+      font-weight: 500;
+      font-size: 32px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    p{
+      font-size: 24px;
+    }
+
+  }
+
+  .bi-caret-right-fill{
+    color: $green;
+    width: 25px;
+    height: 25px;
+    padding-right: 14px;
+  }
+
+  .presentation{
+    display: flex;
+    align-items: center;
+    width: 530px;
+    height: 224px;
+    gap: 59px;
+
+    .presentation-left{
+      img{
+      width: 224px;
+      height: 224px;
+      object-fit: cover;
+    }
+    }
+
+    p{
+      font-size: 24px;
+      color: $darkblue;
+    }
+
+    a{
+      text-decoration: none;
+      font-size: 24px;
+      color: $darkblue;
+
+      i{
+        padding-right: 10px;
+      }
+    }
+
+    .bi-pin-map-fill, .bi-check-circle-fill{
+      padding-right: 10px;
+      color: $darkblue;
+    }
+
+  }
+
+form{
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+
+  label{
+  font-size: 24px;
+  color: $dark-color;
+  font-weight: 500;
+}
+
+input, select{
+  width: 550px;
+  height: 45px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border: 1px solid $darkblue;
+  background-color: transparentize($color: $lightblue, $amount: 0.88);
+  border-radius: 30px;
+}
+
+select{
+  font-size: 20px;
+  padding-left: 20px;
+  color: $dark-color;
+}
+
+textarea{
+  width: 675px;
+  border: 1px solid $darkblue;
+  background-color: transparentize($color: $lightblue, $amount: 0.88);
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border-radius: 30px;
+  height: 455px;
+}
+
+}
+
+.section-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 95px
+}
+
+.section-form{
+  margin-top: 225px;
+
+  p{
+    font-size: 20px;
+    margin-left: 120px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+  }
+
+  h2{
+    font-size: 40px;
+    color: $darkblue;
+    font-weight: 700;
+  }
+
+  .form-title{
+    margin-left: 120px;
+  }
+
+  .btn{
+      width: 243px;
+      height: 54px;
+      color: $light-color;
+      background-color: $lightblue;
+      font-weight: 500;
+      border-radius: 20px;
+      display: inline-flex;
+      align-items: center; 
+      justify-content: center;
+      margin-top: 70px;
+      font-size: 24px;
+      margin-left: 120px;
+    }
+}
+
+
+
+
+
+
+
+
+
 
 
 

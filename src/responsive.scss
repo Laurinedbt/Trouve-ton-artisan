@@ -1,0 +1,79 @@
+// RESPONSIVE ACCUEIL
+
+  @media (max-width: 992px) {
+  .home-header{
+    width: 237px;
+    height: 142px;
+    margin-left: 42px;
+    margin-top: 30px;
+    
+    h1{
+      font-size: 17px;
+      margin-top: 11px;
+    }
+    hr{
+      width: 27px;
+      height: 8px;
+    }
+  }
+
+    .artisan-section{
+        width: 237px;
+        height: 142px;
+        margin-left: 42px;
+        margin-top: 30px;
+        margin-top: 275px;
+
+        h2{
+        font-size: 27px;
+        margin-top: 11px;
+        }
+        hr{
+        width: 27px;
+        height: 8px;
+        }
+    }
+
+.list-section{
+    max-width: 342px;
+
+    .text-section, .last-text{
+        max-width: 310px;
+        font-size: 30px;
+    }
+
+    .text{
+        max-width: 320px;
+    }
+
+    .last-text{
+        max-width: 300px;
+    }
+
+    .info-section{
+        margin-bottom: 170px;
+        p{
+            max-width: 320px;
+        }
+    }
+}
+
+img{
+    max-width: 300px;
+    max-height: 300px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.artisans-du-mois{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.artisans-card{
+    max-width: 279px;
+}
+
+}

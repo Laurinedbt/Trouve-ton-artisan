@@ -1,0 +1,68 @@
+@media (max-width: 992px) {
+
+    .fiche-header{
+        margin: 0;
+        padding-left: 15px;
+        padding-bottom: 60px;
+        
+        h1{
+            font-size: 34px;
+            padding: 0;
+            margin-bottom: 39px;
+        }
+
+        hr{
+            margin: 0;
+        }
+    }
+
+    .presentation{
+        width: 227px; 
+        display: flex;
+        flex-direction: column ;
+        gap: 0;
+    }
+
+    .apropos{
+        margin-top: 194px;
+        max-width: 360px;
+
+        p{
+            font-size: 20px;
+        }
+    }
+
+    .section-form{
+        max-width: 395px;
+        margin-left: 15px;
+
+        .form-title{
+            margin: 20px;
+        }
+
+        h2{
+            font-size: 34px;        
+        }
+
+        p{
+            margin: 0;
+            padding-bottom: 68px;
+        }
+
+        form{
+            margin: 0 auto;
+        }
+
+        input, select{
+            max-width: 340px;
+        }
+
+        textarea{
+            max-width: 378px;
+        }
+
+        .btn{
+            margin: 0;
+        }
+    }
+}

@@ -45,6 +45,10 @@ footer {
   color: #f1f8fc;
 }
 
+
+
+// MENU NAVIGATION
+
 .navbar {
     box-shadow: 0px 12px 24px 0px transparentize($dark-color, 0.9);
 }
@@ -81,6 +85,11 @@ li.nav-item {
 .bi-search {
     color: $darkblue;
 }
+
+
+
+
+
 
 // PAGE ACCUEIL
 
@@ -306,6 +315,296 @@ hr {
 hr{
   width: 80%;
 }
+
+
+
+
+
+
+  // PAGE LISTE DES ARTISANS / BATIMENT
+
+.batiment-card{
+  color: $darkblue;
+  margin: auto;
+  max-width: 436px;
+  min-height: 703px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  
+  background-color: transparentize($color: $lightblue, $amount: 0.88 );
+
+  margin-bottom: 100px;
+  border-radius: 50px;
+
+  h3{
+    font-weight: 700;
+    width: 279px;
+  }
+  
+  img{
+      width: 250px;
+      height: 250px;
+      border : 1px solid transparentize($darkblue, 0.12);
+    }
+
+    .text-size{
+      font-size: 22px;
+    }
+
+    a{
+      text-decoration: none;
+    }
+
+    .btn{
+      width: 243px;
+      height: 54px;
+      color: $light-color;
+      background-color: $lightblue;
+      font-weight: 500;
+      border-radius: 20px;
+      display: inline-flex;
+      align-items: center; 
+      justify-content: center;
+      margin-top: 49px;
+    }
+
+    .bi-pin-map-fill, .bi-check-circle-fill{
+      padding-right: 10px;
+    }
+
+    .bi-arrow-right{
+      font-size: 35px;
+    }
+
+}
+
+.bi-star-fill, .bi-star-half{
+      color: $lightblue;
+      font-size: 25px;
+    }
+
+.page-title{
+  padding-left: 120px;
+  color: $darkblue;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.second-title{
+  padding-left: 200px;
+  padding-top: 95px;
+  padding-bottom: 100px;
+  color: $darkblue;
+  
+  h2{
+    font-weight: 700;
+    font-size: 40px;
+  }
+}
+
+.card-title{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.rating{
+  padding-bottom: 10px;
+}
+
+
+
+
+// PAGE FICHE ARTISAN
+
+.fiche-header{
+  hr{
+    margin-left: 120px;
+    margin-top: 60px;
+    margin-bottom: 75px;
+  }
+  }
+
+  .apropos{
+    width: 608px;
+    height: 388px;
+
+    h2{
+      color: $darkblue;
+      font-weight: 500;
+      font-size: 32px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    p{
+      font-size: 24px;
+    }
+
+  }
+
+  .bi-caret-right-fill{
+    color: $green;
+    width: 25px;
+    height: 25px;
+    padding-right: 14px;
+  }
+
+  .presentation{
+    display: flex;
+    align-items: center;
+    width: 530px;
+    height: 224px;
+    gap: 59px;
+
+    .presentation-left{
+      img{
+      width: 224px;
+      height: 224px;
+      object-fit: cover;
+    }
+    }
+
+    p{
+      font-size: 24px;
+      color: $darkblue;
+    }
+
+    a{
+      text-decoration: none;
+      font-size: 24px;
+      color: $darkblue;
+
+      i{
+        padding-right: 10px;
+      }
+    }
+
+    .bi-pin-map-fill, .bi-check-circle-fill{
+      padding-right: 10px;
+      color: $darkblue;
+    }
+
+  }
+
+form{
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+
+  label{
+  font-size: 24px;
+  color: $dark-color;
+  font-weight: 500;
+}
+
+input, select{
+  width: 550px;
+  height: 45px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border: 1px solid $darkblue;
+  background-color: transparentize($color: $lightblue, $amount: 0.88);
+  border-radius: 30px;
+}
+
+select{
+  font-size: 20px;
+  padding-left: 20px;
+  color: $dark-color;
+}
+
+textarea{
+  width: 675px;
+  border: 1px solid $darkblue;
+  background-color: transparentize($color: $lightblue, $amount: 0.88);
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border-radius: 30px;
+  height: 455px;
+}
+
+}
+
+.section-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 95px
+}
+
+.section-form{
+  margin-top: 225px;
+
+  p{
+    font-size: 20px;
+    margin-left: 120px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+  }
+
+  h2{
+    font-size: 40px;
+    color: $darkblue;
+    font-weight: 700;
+  }
+
+  .form-title{
+    margin-left: 120px;
+  }
+
+  .btn{
+      width: 243px;
+      height: 54px;
+      color: $light-color;
+      background-color: $lightblue;
+      font-weight: 500;
+      border-radius: 20px;
+      display: inline-flex;
+      align-items: center; 
+      justify-content: center;
+      margin-top: 70px;
+      font-size: 24px;
+      margin-left: 120px;
+    }
+}
+
+.erreur{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $darkblue;
+  margin-top: 140px;
+
+  p{
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 30px;
+  }
+
+  a{
+    font-size: 24px;
+    margin-top: 115px;
+    color: transparentize($color: $lightblue, $amount: 0.20);
+  }
+  
+  i{
+    font-size: 70px;
+  }
+
+  
+}
+
+
+
+
+
+
+
+
+
 
 
 

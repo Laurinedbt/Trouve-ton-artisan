@@ -2,6 +2,8 @@ $dark-color : #384050;
 $light-color : #f1f8fc;
 $lightblue : #0074c7;
 $darkblue : #00497c;
+$red : #cd2c2e;
+$green : #82b864;
 
 // Polices
 @font-face {
@@ -79,6 +81,178 @@ li.nav-item {
 .bi-search {
     color: $darkblue;
 }
+
+// PAGE ACCUEIL
+
+.home-header {
+  background-color: $red;
+  width: 484px;
+  height: 269px;
+  display: flex;
+  align-items: center;
+  margin-left: 85px;
+  margin-top: 30px;
+  margin-bottom: 92px;
+
+    h1 {
+      font-size: 32px;
+      color: $light-color;
+      margin-top: 28px;  
+    }
+}
+
+.artisan-section{
+  background-color: $lightblue;
+  width: 484px;
+  height: 269px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 85px;
+
+    hr{
+      border: none;
+      height: 14px;               
+      width: 52px;               
+      background-color: $light-color;  
+      opacity: 1;
+    }
+
+    h2{
+      font-size: 32px;
+      color: $light-color;
+      margin-top: 28px;
+    }
+
+}
+
+  .header-line {
+    border: none;
+    height: 14px;               
+    width: 52px;               
+    background-color: $light-color;  
+    opacity: 1;
+  }
+
+  .list-section {
+  width: 1084px;
+  display: flex;
+  justify-self: center;
+
+    .text-section {
+      color: $darkblue;
+      font-weight: 700;
+      font-size: 32px;
+      width: 442px;
+      padding-bottom: 25px;
+    }
+
+    .last-text{
+      color: $darkblue;
+      font-weight: 700;
+      font-size: 32px;
+      padding-bottom: 25px;
+    }
+  }
+
+  .info-section {
+    height: 450;
+    margin-bottom: 70px;
+  }
+
+  .artisans-du-mois{
+    background-color: transparentize($lightblue, 0.9);
+    margin: 25px auto;
+    max-width: 1390px;
+    min-height: 745px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    
+
+    h3{
+      width: 279px;
+      font-weight: 700;
+    }
+    
+  }
+
+  .artisan-card{
+    color: $darkblue;
+    width: 279px;
+    display: flex;
+    flex-direction: column;
+
+    .img-container{
+      padding-top: 60px;
+      padding-bottom: 20px;
+    }
+
+    img{
+      width: 250px;
+      height: 250px;
+      border : 1px solid transparentize($darkblue, 0.12);
+    }
+
+
+    .bi-star-fill, .bi-star-half{
+      color: $lightblue;
+      font-size: 25px;
+    }
+
+    .text-size{
+      font-size: 22px;
+    }
+
+    a{
+      text-decoration: none;
+    }
+
+    .button{
+      color: $darkblue;
+      font-weight: 700;
+      display: inline-flex;
+      align-items: center; 
+    }
+
+    .bi-pin-map-fill, .bi-check-circle-fill{
+      padding-right: 10px;
+    }
+
+    .bi-arrow-right{
+      font-size: 35px;
+    }
+  }
+
+  .line {
+    border: none;
+    height: 13px;               
+    width: 43px;  
+    opacity: 1;
+  }
+
+  .greenline {
+    background-color: $green;
+  }
+
+  .redline {
+    background-color: $red;
+  }
+
+  .blueline {
+    background-color: $darkblue;
+  }
+
+  .text{
+    width: 428px;
+  }
+
+  .img-placeholder{
+    img{
+      height: 450px;
+      width: 450px;
+    }
+  }
 
 
 // RESPONSIVE NAVBAR

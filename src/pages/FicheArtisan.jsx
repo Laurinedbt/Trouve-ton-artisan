@@ -20,10 +20,10 @@ const FicheArtisan = () => {
                                 <i class="bi bi-star-fill px-1"></i>
                                 <i class="bi bi-star-fill px-1"></i>
                                 <i class="bi bi-star-half px-1"></i>
-                            </div>
-                            <p><i class="bi bi-check-circle-fill"></i>Spécialité</p>
-                            <p><i class="bi bi-pin-map-fill"></i>Localisation</p>
-                            <a href="/"><i class="bi bi-globe"></i>Lien site internet</a>
+                                </div>
+                                <p><i class="bi bi-check-circle-fill"></i>Spécialité</p>
+                                <p><i class="bi bi-pin-map-fill"></i>Localisation</p>
+                                <a href="/"><i class="bi bi-globe"></i>Lien site internet</a>
                             </div>
                             
                         </article>

@@ -1,6 +1,7 @@
 import './App.scss';
 import {Routes, Route} from "react-router-dom";
-import NavBar from "./components/NavBar";
+import NavBar from "./components/NavBar.jsx";
+import Footer from "./components/Footer.jsx"
 import BreadcrumbNav from './components/BreadcrumbNav.jsx';
 import Accueil from './pages/Accueil';
 import Batiment from './pages/Batiment';

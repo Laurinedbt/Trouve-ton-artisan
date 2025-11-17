@@ -4,7 +4,7 @@ import NavBar from "./components/NavBar.jsx";
 import Footer from "./components/Footer.jsx"
 import BreadcrumbNav from './components/BreadcrumbNav.jsx';
 import Accueil from './pages/Accueil';
-import Batiment from './pages/Batiment';
+import Categorie from './pages/Categorie.jsx';
 import Erreur from './pages/Erreur.jsx';
 import FicheArtisan from './pages/FicheArtisan.jsx';
 
@@ -17,9 +17,9 @@ function App() {
 
       <Routes>
         <Route path='/' element={<Accueil />}></Route>
-        <Route path='/batiment' element={<Batiment />}></Route>
+        <Route path="/categorie/:categorie" element={<Categorie />} />
+        <Route path="/ficheartisan/:id" element={<FicheArtisan />} />
         <Route path='/erreur' element={<Erreur />}></Route>
-        <Route path='/ficheartisan' element={<FicheArtisan />}></Route>
       </Routes>
 
       <Footer />

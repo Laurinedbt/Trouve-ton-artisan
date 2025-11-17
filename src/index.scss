@@ -62,11 +62,33 @@ li.nav-item {
 }
 
 .search-container {
+    position: relative;
     width: 246px;
     height: 64px;
     display: flex;
+    align-items: center;
     border-bottom: 2px solid $lightblue;
     border-right: 2px solid $lightblue;
+
+    .suggestions-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #f1f8fc;
+    border: 1px solid;
+    z-index: 1000;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: 200px;
+    overflow-y: auto;
+
+    li {
+      padding: 8px 12px;
+      cursor: pointer;
+    }
+  }
 }
 
 .search-input {
@@ -79,13 +101,19 @@ li.nav-item {
 }
 
 .search-btn {
-  padding-left: 1px;
+  position: absolute;
+  top: 50%;
+  right: 4px;
+  transform: translateY(-50%);
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
 }
 
 .bi-search {
     color: $darkblue;
 }
-
 
 
 

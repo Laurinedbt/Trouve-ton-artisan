@@ -29,11 +29,11 @@ function Footer () {
 
                 <div className="row">
                     <ul className="bottom-footer py-5">
-                        <li className="footer-item">Mentions légales</li>
-                        <li className="footer-item">Données personnelles</li>
-                        <li className="footer-item">Accessibilité</li>
-                        <li className="footer-item">Politique des cookies</li>
-                        <li className="footer-item">Gestion des cookies</li>
+                        <li className="footer-item"><a href="/erreur">Mentions légales</a></li>
+                        <li className="footer-item"><a href="/erreur">Données personnelles</a></li>
+                        <li className="footer-item"><a href="/erreur">Accessibilité</a></li>
+                        <li className="footer-item"><a href="/erreur">Politique des cookies</a></li>
+                        <li className="footer-item"><a href="/erreur">Gestion des cookies</a></li>
                     </ul>
                 </div>
             </div>

@@ -1,4 +1,3 @@
-import './App.scss';
 import {Routes, Route} from "react-router-dom";
 import NavBar from "./components/NavBar.jsx";
 import Footer from "./components/Footer.jsx"

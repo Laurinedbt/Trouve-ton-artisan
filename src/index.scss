@@ -292,64 +292,11 @@ li.nav-item {
   }
 
 
-// RESPONSIVE NAVBAR
-
-@media (max-width: 992px) {
-  .navbar-brand img {
-    width: 195px;
-    height: 110px;
-  }
-
-  .navbar-collapse{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .search-container{
-    margin-top: 20px;
-  }
-}
-
-@media (min-width: 992px) {
-    .navbar-nav {
-        margin: 0 auto;
-    }
-}
-
-
-.bold {
-  font-weight: 700;
-}
-
-hr {
-  color: $light-color;
-  opacity: 100%;
-}
-
-.footer-item{
-  font-size: 18px;
-}
-
-.bottom-footer{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem; 
-
-  list-style: none;
-}
-
-hr{
-  width: 80%;
-}
 
 
 
 
-
-
-  // PAGE LISTE DES ARTISANS / BATIMENT
+  // PAGE LISTE DES ARTISANS
 
 .batiment-card{
   color: $darkblue;
@@ -598,6 +545,44 @@ textarea{
       margin-left: 120px;
     }
 }
+
+
+
+// FOOTER
+
+footer{
+  margin-top: 200px;
+}
+.bold {
+  font-weight: 700;
+}
+
+hr {
+  color: $light-color;
+  opacity: 100%;
+}
+
+.footer-item{
+  font-size: 18px;
+}
+
+.bottom-footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem; 
+
+  list-style: none;
+}
+
+hr{
+  width: 80%;
+}
+
+
+
+
+// PAGE ERREUR
 
 .erreur{
   display: flex;

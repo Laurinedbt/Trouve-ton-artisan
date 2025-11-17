@@ -144,3 +144,28 @@ img{
         }
     }
 }
+
+// RESPONSIVE NAVBAR
+
+@media (max-width: 992px) {
+  .navbar-brand img {
+    width: 195px;
+    height: 110px;
+  }
+
+  .navbar-collapse{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .search-container{
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+    .navbar-nav {
+        margin: 0 auto;
+    }
+}

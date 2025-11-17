@@ -5,17 +5,21 @@ const BreadcrumbNav = () => {
   const location = useLocation();
   const pathnames = location.pathname.split('/').filter(x => x);
 
-  // Si on est sur la page d'accueil, ne rien afficher
   if (pathnames.length === 0) return null;
+
+  // Supprimer "categorie" et décoder les segments
+  const filteredPathnames = pathnames
+    .filter(name => name !== 'categorie')
+    .map(name => decodeURIComponent(name));
 
   return (
     <Breadcrumb className='p-4' style={{ "--bs-breadcrumb-divider": "'>'" }}>
       <Breadcrumb.Item linkAs={NavLink} linkProps={{ to: '/' }}>
         Accueil
       </Breadcrumb.Item>
-      {pathnames.map((name, index) => {
+      {filteredPathnames.map((name, index) => {
         const routeTo = `/${pathnames.slice(0, index + 1).join('/')}`;
-        const isLast = index === pathnames.length - 1;
+        const isLast = index === filteredPathnames.length - 1;
         return (
           <Breadcrumb.Item
             key={routeTo}
@@ -32,3 +36,5 @@ const BreadcrumbNav = () => {
 };
 
 export default BreadcrumbNav;
+
+

@@ -4,7 +4,7 @@ const mysql = require('mysql2');
 const cors = require('cors');
 
 const app = express();
-const port = 3000;
+const port = 5000;
 
 //Middleware
 app.use(cors());
@@ -26,6 +26,11 @@ db.connect((err) => {
         console.log('Connecté à la base MySQL');
     }
 });
+
+// Import et configuration des routes
+const artisansRoutes = require('./src/routes/artisans');
+artisansRoutes.setDb(db);
+app.use('/api/artisans', artisansRoutes.router);
 
 // Démarrage serveur
 

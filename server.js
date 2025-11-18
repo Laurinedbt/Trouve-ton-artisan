@@ -30,7 +30,7 @@ db.connect((err) => {
 });
 
 // Import et configuration des routes
-const artisansRoutes = require('../src/routes/artisans');
+const artisansRoutes = require('./src/routes/artisans');
 artisansRoutes.setDb(db);
 app.use('/api/artisans', artisansRoutes.router);
 

@@ -10,13 +10,23 @@ function NavBar() {
 
   // Récupération des catégories
   useEffect(() => {
-    
-    fetch(`https://${process.env.REACT_APP_API_URL}/api/artisans/categories`)
+  const API_URL = process.env.REACT_APP_API_URL;
+  const fullUrl = `${API_URL}/api/artisans/categories`;
 
-      .then((res) => res.json())
-      .then((data) => setCategories(data))
-      .catch((err) => console.error(err));
-  }, []);
+  console.log("URL fetch API:", fullUrl);
+
+  fetch(fullUrl)
+    .then((res) => {
+      console.log("Status fetch:", res.status, res.statusText);
+      return res.json();
+    })
+    .then((data) => {
+      console.log("Données reçues:", data);
+      setCategories(data);
+    })
+    .catch((err) => console.error("Erreur fetch:", err));
+}, []);
+
 
   // Récupération de tous les artisans
   useEffect(() => {

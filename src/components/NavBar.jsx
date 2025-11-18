@@ -10,8 +10,8 @@ function NavBar() {
 
   // Récupération des catégories
   useEffect(() => {
-    const API_URL = process.env.REACT_APP_API_URL;
-    fetch(`${API_URL}/api/artisans/categories`)
+    
+    fetch(`${process.env.REACT_APP_API_URL}/api/artisans/categories`)
       .then((res) => res.json())
       .then((data) => setCategories(data))
       .catch((err) => console.error(err));
@@ -19,8 +19,8 @@ function NavBar() {
 
   // Récupération de tous les artisans
   useEffect(() => {
-    const API_URL = process.env.REACT_APP_API_URL;
-    fetch(`${API_URL}/api/artisans`)
+   
+    fetch(`${process.env.REACT_APP_API_URL}/api/artisans`)
       .then((res) => res.json())
       .then((data) => setAllArtisans(data))
       .catch((err) => console.error(err));

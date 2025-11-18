@@ -6,7 +6,8 @@ const FicheArtisan = () => {
   const [artisan, setArtisan] = useState(null);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/api/artisans/${id}`)
+    const API_URL = process.env.REACT_APP_API_URL;
+    fetch(`${API_URL}/api/artisans/${id}`)
       .then((res) => res.json())
       .then((data) => setArtisan(data))
       .catch((err) => console.error(err));

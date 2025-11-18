@@ -7,7 +7,8 @@ const Categorie = () => {
   const [artisans, setArtisans] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/api/artisans/categorie/${encodeURIComponent(categorie)}`)
+    const API_URL = process.env.REACT_APP_API_URL;
+    fetch(`${API_URL}/api/artisans/categorie/${encodeURIComponent(categorie)}`)
       .then((res) => res.json())
       .then((data) => {
       console.log("Données récupérées :", data);

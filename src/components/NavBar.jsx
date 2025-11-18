@@ -10,7 +10,8 @@ function Header() {
 
   // Récupération des catégories
   useEffect(() => {
-    fetch("http://localhost:5000/api/artisans/categories")
+    const API_URL = process.env.REACT_APP_API_URL;
+    fetch(`${API_URL}/api/artisans/categories`)
       .then((res) => res.json())
       .then((data) => setCategories(data))
       .catch((err) => console.error(err));

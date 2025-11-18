@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 
-function NavBar() {
+function Header() {
   const [categories, setCategories] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [suggestions, setSuggestions] = useState([]);
@@ -122,7 +122,7 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default Header;
 
 
 

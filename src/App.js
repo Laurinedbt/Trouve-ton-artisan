@@ -1,5 +1,5 @@
 import {Routes, Route} from "react-router-dom";
-import NavBar from "./components/NavBar.jsx";
+import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx"
 import BreadcrumbNav from './components/BreadcrumbNav.jsx';
 import Accueil from './pages/Accueil';
@@ -11,7 +11,7 @@ import FicheArtisan from './pages/FicheArtisan.jsx';
 function App() {
   return (
     <div className="App">
-      <NavBar /> 
+      <Header /> 
         <BreadcrumbNav />
 
       <Routes>

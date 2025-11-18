@@ -4,7 +4,7 @@ const mysql = require('mysql2');
 const cors = require('cors');
 
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 5000;
 
 //Middleware
 app.use(cors());
@@ -13,10 +13,11 @@ app.use(bodyParser.json());
 // Connexion BDD
 
 const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'trouve_ton_artisan'
+    host: process.env.DB_HOST || 'localhost',      
+    user: process.env.DB_USER || 'root',          
+    password: process.env.DB_PASSWORD || '',  
+    database: process.env.DB_NAME || 'trouve_ton_artisan',
+    port: process.env.DB_PORT || 3306
 });
 
 db.connect((err) => {

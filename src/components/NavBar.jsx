@@ -19,7 +19,8 @@ function Header() {
 
   // Récupération de tous les artisans
   useEffect(() => {
-    fetch("http://localhost:5000/api/artisans")
+    const API_URL = process.env.REACT_APP_API_URL;
+    fetch(`${API_URL}/api/artisans`)
       .then((res) => res.json())
       .then((data) => setAllArtisans(data))
       .catch((err) => console.error(err));

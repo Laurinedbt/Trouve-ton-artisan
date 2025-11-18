@@ -1,3 +1,32 @@
+Devoir bilan - Créez le site Web "Trouve ton artisan" avec React.JS
+
+Objectifs :
+
+Mettre en place et utiliser un environnement de développement intégré,
+Mettre en place localement un serveur de données,
+Utiliser des outils collaboratifs de développement logiciel et de versionning,
+Utiliser un outil de maquettage,
+Construire la maquette de l’interface utilisateur web ou web mobile,
+Schématiser l’enchaînement des maquettes,
+Respecter la charte graphique du cahier des charges,
+Adapter l’interface à la taille, au type et à la disposition du support (responsivité), y compris pour les équipements mobiles,
+Appliquer des règles de référencement pour les interfaces web,
+Publier de manière sécurisée un site web sur un serveur web,
+Coder dans un langage de programmation de script client,
+Gérer les événements de l’interface utilisateur,
+Fluidifier l’interface en utilisant des mécanismes asynchrones,
+Gérer dans leur intégralité les erreurs et les exceptions, pour éviter les vulnérabilités,
+Documenter le code,
+Identifier et prendre en compte les données du schéma conceptuel et leurs relations,
+Construire le schéma logique des données,
+Construire le schéma physique des données,
+Mettre en œuvre les instructions de création, de modification et de suppression de base de données,
+Écrire et exécuter un script de création de base de données
+Définir et implémenter un jeu d’essai complet,
+Utiliser des composants d’accès aux données.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
